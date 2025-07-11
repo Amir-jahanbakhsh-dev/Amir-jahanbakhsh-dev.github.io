@@ -1,0 +1,34 @@
+.container1{
+    background-color: #000000cd;
+    padding: 50px;
+    margin: 20px 0 20px 0;
+    text-align: center;
+    line-height: 2;
+    margin-bottom: 50px;
+}
+.title-service{
+    font-family: 'B titr';
+    margin-bottom: 40px;
+}
+ul.ulCont{
+    text-align: center;
+    list-style: none;
+    gap: 30px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+.ulCont li{
+    display: inline-block;
+    font-size: 50px;
+    color: brown;
+}
+ul.ulCont li h3{
+    color: var(--colorwhite);
+    font-size: 20px;
+}
+@media (max-width: 768px) {
+    /* .ulCont li{
+        font-size: 30px;
+    } */
+}

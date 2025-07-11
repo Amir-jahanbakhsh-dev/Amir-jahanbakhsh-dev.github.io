@@ -1,0 +1,50 @@
+.wCos {
+  width: 100px;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+.ptex{
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 5rem;
+}
+.header {
+  padding: 20px 0 10px 0;
+}
+.sideText {
+  height: 80vh;
+  flex-direction: column;
+  direction: rtl;
+}
+.sideText h1 {
+  font-weight: bolder;
+  text-align: center;
+  color: var(--colorred);
+  font-family: "B titr";
+  font-size: 60px;
+  padding-bottom: 25px;
+  text-shadow: 1px 1px 5px var(--colorwhite);
+  line-height: 1.8;
+  -webkit-text-stroke-width:1px;
+  -webkit-text-stroke-color: var(--colorwhite);
+}
+.sideText .ptext1 {
+  font-family: "B titr";
+  font-size: 20px;
+  font-weight: bolder;
+}
+.sideImage {
+  padding: 0;
+  margin: 0;
+}
+.sideImage img {
+  width: 70%;
+}
+@media (max-width: 768px) {
+  .sideText h1 {
+    font-size: 50px;
+    -webkit-text-stroke-width: 2px;
+  }
+}

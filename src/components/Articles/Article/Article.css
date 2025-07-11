@@ -1,0 +1,17 @@
+.box_worker{
+    padding: 50px;
+    line-height: 2.8;
+
+}
+.box_worker img{
+    border-radius: 100%;
+    width: 200px;
+}
+.box_worker h3{
+    font-family: 'B titr';
+    color: var(--colorwhite);
+}
+.box_worker p{
+    color: gray;
+}
+

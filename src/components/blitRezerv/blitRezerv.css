@@ -1,0 +1,23 @@
+.Blit{
+    background-color: var(--colorblack);
+    padding: 60px;
+    text-align: center;
+    line-height: 1.8;
+
+}
+.Blit form{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+.Blit form label{
+    padding: 10px;
+}
+.Blit form input ,.Blit form select {
+    border-radius: 5px;
+    padding: 3px;
+}
+.Blit h3{
+    font-family: 'B titr';
+}
